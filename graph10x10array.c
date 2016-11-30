@@ -23,7 +23,7 @@ void main()
 	//getting input to know which point to be plotted
 	for (p = 1; p <= n; p = p + 1)
 	{
-		printf("\nINPUT x and y of %d point\n", p);
+		printf("\nINPUT value of x and y coordinate of point %d separated by a space\n", p);
 		scanf_s("%d %d",&x,&y);
 		g[y][x] = 1;
 	}
